@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>سياسة الخصوصية | قهوة أم تركي</title>
   <meta name="description" content="سياسة الخصوصية لمتجر قهوة أم تركي." />
+  /* زر واتساب عائم */
+.whatsapp-fab{
+  position:fixed;bottom:18px;left:18px;z-index:60;
+  width:56px;height:56px;border-radius:50%;
+  background:#25D366;display:grid;place-items:center;
+  color:#fff;font-weight:800;box-shadow:0 10px 20px rgba(0,0,0,.15);
+  transition:.2s transform ease;
+}
+.whatsapp-fab:hover{transform:translateY(-2px);filter:brightness(1.05)}
+.whatsapp-fab svg{width:28px;height:28px;display:block}
+@media (max-width:640px){.whatsapp-fab{width:52px;height:52px}}
   <style>
     :root{--stone:#1c1917;--muted:#6b7280;--bg:#fafaf9;--white:#fff;--amber:#d97706}
     *{box-sizing:border-box}
